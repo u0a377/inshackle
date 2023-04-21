@@ -1,6 +1,6 @@
 version 1.0.0
 
-exec:> bash:inshackle.sh 
+exec:> inshackle.sh 
 build:? build.sh
 
 debian: coreutils:rmdir:rmdir
