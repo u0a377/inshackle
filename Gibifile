@@ -1,0 +1,34 @@
+version 1.0.0
+
+exec:> bash:inshackle.sh 
+build:? build.sh
+
+debian: coreutils:rmdir:rmdir
+debian: coreutils:rm:rm
+debian: coreutils:cp:cp
+debian: grep:grep:grep
+debian: curl:curl:curl
+
+ubuntu: coreutils:rmdir:rmdir
+ubuntu: coreutils:rm:rm
+ubuntu: coreutils:cp:cp
+ubuntu: grep:grep:grep
+ubuntu: curl:curl:curl
+
+kali: coreutils:rmdir:rmdir
+kali: coreutils:rm:rm
+kali: coreutils:cp:cp
+kali: grep:grep:grep
+kali: curl:curl:curl
+
+fedora: coreutils:rmdir:rmdir
+fedora: coreutils:rm:rm
+fedora: coreutils:cp:cp
+fedora: grep:grep:grep
+fedora: curl:curl:curl
+
+arch: coreutils:rmdir:rmdir
+arch: coreutils:rm:rm
+arch: coreutils:cp:cp
+arch: grep:grep:grep
+arch: curl:curl:curl
