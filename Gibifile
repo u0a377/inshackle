@@ -1,6 +1,6 @@
 version 1.0.0
 
-exec:> ${GIBIDIR#*/}/inshackle.sh
+exec:> ${GIBIDIR#*/}/share/${source##*/}/inshackle.sh
 build:? build.sh
 
 debian: coreutils:rmdir:rmdir
