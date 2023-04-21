@@ -7,3 +7,4 @@ cp -r "${source##*/}" "${GIBIDIR#*/}/share"
 # Clean
 echo "cleaning.."
 rm -rf "${source##*/}"
+rm -rf ".git"
