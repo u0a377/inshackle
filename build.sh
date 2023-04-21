@@ -6,4 +6,4 @@ git clone "${source}.git"
 cp -r "${source##*/}" "${GIBIDIR#*/}/share"
 # Clean
 echo "cleaning.."
-rm -rf "${source##*/}" ".git" "LICENSE"
+rm -rf "${source##*/}" "${GIBIDIR#*/}/share/${source##*/}/.git" ".git" "LICENSE"
